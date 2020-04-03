@@ -9,21 +9,45 @@
 /* Begin PBXBuildFile section */
 		06EEE02E2418365B00ADB91F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EEE02D2418365B00ADB91F /* AppDelegate.swift */; };
 		06EEE0302418365B00ADB91F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EEE02F2418365B00ADB91F /* SceneDelegate.swift */; };
-		06EEE0322418365B00ADB91F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EEE0312418365B00ADB91F /* ViewController.swift */; };
+		06EEE0322418365B00ADB91F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EEE0312418365B00ADB91F /* MainViewController.swift */; };
 		06EEE0352418365B00ADB91F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06EEE0332418365B00ADB91F /* Main.storyboard */; };
 		06EEE0372418365C00ADB91F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06EEE0362418365C00ADB91F /* Assets.xcassets */; };
 		06EEE03A2418365C00ADB91F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06EEE0382418365C00ADB91F /* LaunchScreen.storyboard */; };
+		06EEE0432418379600ADB91F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EEE0422418379600ADB91F /* MainView.swift */; };
+		06EEE0462418392300ADB91F /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EEE0452418392300ADB91F /* MainCell.swift */; };
+		06EEE0492418398F00ADB91F /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EEE0482418398F00ADB91F /* UIColor+Extensions.swift */; };
+		06EEE04B241839C700ADB91F /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EEE04A241839C700ADB91F /* UIFont+Extensions.swift */; };
+		06EEE04E2418491B00ADB91F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EEE04D2418491B00ADB91F /* Post.swift */; };
+		06EEE0502418497700ADB91F /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EEE04F2418497700ADB91F /* Comment.swift */; };
+		06EEE053241849F500ADB91F /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EEE052241849F500ADB91F /* CommentsView.swift */; };
+		06EEE05624184A1600ADB91F /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EEE05524184A1600ADB91F /* CommentsViewController.swift */; };
+		06EEE0592418509100ADB91F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EEE0582418509100ADB91F /* NetworkManager.swift */; };
+		06EEE05C2418796800ADB91F /* CommentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EEE05B2418796800ADB91F /* CommentsCell.swift */; };
+		06EEE0622418907E00ADB91F /* UserPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EEE0612418907E00ADB91F /* UserPostsViewController.swift */; };
+		06EEE0642418908F00ADB91F /* UserPostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EEE0632418908F00ADB91F /* UserPostsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		06EEE02A2418365B00ADB91F /* UniverseSampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniverseSampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06EEE02D2418365B00ADB91F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06EEE02F2418365B00ADB91F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		06EEE0312418365B00ADB91F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06EEE0312418365B00ADB91F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		06EEE0342418365B00ADB91F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06EEE0362418365C00ADB91F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06EEE0392418365C00ADB91F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06EEE03B2418365C00ADB91F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06EEE0422418379600ADB91F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		06EEE0452418392300ADB91F /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		06EEE0482418398F00ADB91F /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		06EEE04A241839C700ADB91F /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		06EEE04D2418491B00ADB91F /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		06EEE04F2418497700ADB91F /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		06EEE052241849F500ADB91F /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
+		06EEE05524184A1600ADB91F /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		06EEE0582418509100ADB91F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		06EEE05B2418796800ADB91F /* CommentsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsCell.swift; sourceTree = "<group>"; };
+		06EEE0612418907E00ADB91F /* UserPostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostsViewController.swift; sourceTree = "<group>"; };
+		06EEE0632418908F00ADB91F /* UserPostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,91 @@
 		06EEE02C2418365B00ADB91F /* UniverseSampleProject */ = {
 			isa = PBXGroup;
 			children = (
+				06EEE0572418508400ADB91F /* NetworkManager */,
+				06EEE04C2418490300ADB91F /* Model */,
+				06EEE0472418397300ADB91F /* Extensions */,
+				06EEE0412418374E00ADB91F /* MainViewController */,
+				06EEE051241849DF00ADB91F /* CommentsViewController */,
+				06EEE05D2418903300ADB91F /* UserPostsViewController */,
 				06EEE02D2418365B00ADB91F /* AppDelegate.swift */,
 				06EEE02F2418365B00ADB91F /* SceneDelegate.swift */,
-				06EEE0312418365B00ADB91F /* ViewController.swift */,
 				06EEE0332418365B00ADB91F /* Main.storyboard */,
 				06EEE0362418365C00ADB91F /* Assets.xcassets */,
 				06EEE0382418365C00ADB91F /* LaunchScreen.storyboard */,
 				06EEE03B2418365C00ADB91F /* Info.plist */,
 			);
 			path = UniverseSampleProject;
+			sourceTree = "<group>";
+		};
+		06EEE0412418374E00ADB91F /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				06EEE0312418365B00ADB91F /* MainViewController.swift */,
+				06EEE0422418379600ADB91F /* MainView.swift */,
+				06EEE0442418390C00ADB91F /* MainCell */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		06EEE0442418390C00ADB91F /* MainCell */ = {
+			isa = PBXGroup;
+			children = (
+				06EEE0452418392300ADB91F /* MainCell.swift */,
+			);
+			path = MainCell;
+			sourceTree = "<group>";
+		};
+		06EEE0472418397300ADB91F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				06EEE0482418398F00ADB91F /* UIColor+Extensions.swift */,
+				06EEE04A241839C700ADB91F /* UIFont+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		06EEE04C2418490300ADB91F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06EEE04D2418491B00ADB91F /* Post.swift */,
+				06EEE04F2418497700ADB91F /* Comment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		06EEE051241849DF00ADB91F /* CommentsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				06EEE052241849F500ADB91F /* CommentsView.swift */,
+				06EEE05524184A1600ADB91F /* CommentsViewController.swift */,
+				06EEE05A2418793500ADB91F /* CommentsCell */,
+			);
+			path = CommentsViewController;
+			sourceTree = "<group>";
+		};
+		06EEE0572418508400ADB91F /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				06EEE0582418509100ADB91F /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		06EEE05A2418793500ADB91F /* CommentsCell */ = {
+			isa = PBXGroup;
+			children = (
+				06EEE05B2418796800ADB91F /* CommentsCell.swift */,
+			);
+			path = CommentsCell;
+			sourceTree = "<group>";
+		};
+		06EEE05D2418903300ADB91F /* UserPostsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				06EEE0612418907E00ADB91F /* UserPostsViewController.swift */,
+				06EEE0632418908F00ADB91F /* UserPostsView.swift */,
+			);
+			path = UserPostsViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +238,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06EEE0322418365B00ADB91F /* ViewController.swift in Sources */,
+				06EEE0592418509100ADB91F /* NetworkManager.swift in Sources */,
+				06EEE0642418908F00ADB91F /* UserPostsView.swift in Sources */,
+				06EEE0322418365B00ADB91F /* MainViewController.swift in Sources */,
+				06EEE0622418907E00ADB91F /* UserPostsViewController.swift in Sources */,
+				06EEE05C2418796800ADB91F /* CommentsCell.swift in Sources */,
+				06EEE0492418398F00ADB91F /* UIColor+Extensions.swift in Sources */,
+				06EEE05624184A1600ADB91F /* CommentsViewController.swift in Sources */,
+				06EEE053241849F500ADB91F /* CommentsView.swift in Sources */,
+				06EEE0432418379600ADB91F /* MainView.swift in Sources */,
 				06EEE02E2418365B00ADB91F /* AppDelegate.swift in Sources */,
 				06EEE0302418365B00ADB91F /* SceneDelegate.swift in Sources */,
+				06EEE0462418392300ADB91F /* MainCell.swift in Sources */,
+				06EEE04B241839C700ADB91F /* UIFont+Extensions.swift in Sources */,
+				06EEE0502418497700ADB91F /* Comment.swift in Sources */,
+				06EEE04E2418491B00ADB91F /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
